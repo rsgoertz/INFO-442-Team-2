@@ -37,7 +37,7 @@
 - The map will be on the right side of the screen, taking up the rest of the space next to the results pane on the left. 
 
 ## Results
-- When the inputs are received, the system will display the nearby locations related to the inputs and the details associated with them on the left side of the screen, while the map of the locations is on the right
+- The system will display the nearby locations related to user input and filter selection. Details associated with results will appear on the left side of the screen, while the map of the locations is on the right
 - The details displayed for each location include: name, restriction, meal-type, time, days, and address
     - Restrictions include age, sex, ethnicity, etc.
 - The user will be able to scroll down the the sidebar on the left side of the screen to view more locations available near them
