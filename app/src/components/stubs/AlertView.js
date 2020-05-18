@@ -9,7 +9,15 @@ class AlertView extends Component {
     render() {
         return (
             <div>
-                { this.props.errorMessage }
+                <Alert dismissible variant="danger">
+					<Alert.Heading>Sorry, we were not able to find any matches:</Alert.Heading>
+                        <li>
+                            Please check spelling and try again.
+                        </li>
+                        <li>
+                            Try using the Browse All feature.
+                        </li>
+				</Alert>
             </div>
         )
     }
